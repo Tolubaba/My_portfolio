@@ -5,6 +5,11 @@ import {FaTwitter} from 'react-icons/fa'
 import {FaGithub} from 'react-icons/fa'
 import {FaLinkedin} from 'react-icons/fa'
 import { Link, Element, animateScroll as scroll } from 'react-scroll'; 
+import { FiSend } from 'react-icons/fi';
+
+// Usage example
+<FiSend />
+
 
 // ...
 
@@ -14,7 +19,7 @@ import { Link, Element, animateScroll as scroll } from 'react-scroll';
  
 const Home = () => {
   return (
-    <Element name="home" id="home">
+    
     <div className="homepage" id="home">
         <div className="firsthome">
             <div className="homelittleicon">
@@ -50,7 +55,7 @@ const Home = () => {
             <h1 className="homename"> Hi, I am Toluwase</h1>
         <p className="homedeveloper"> A frontend developer</p>
         <p className="homedesc">Intermediate level experience in web design and development knowledge, creating responsive and pixel perfect websites. </p>
-        <button className="contactme"> <a href="#contact">  contact me </a></button>
+        <button className="contactme"> <a href="#contact">  contact me  </a></button>
         </div>
         
         <div className="homebigicon">
@@ -65,7 +70,7 @@ const Home = () => {
 
       </div>
     </div>
-    </Element>
+
   );
 };
 

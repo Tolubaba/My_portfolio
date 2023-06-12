@@ -321,7 +321,6 @@ gap: 5px;
 }
 .skillsmain{
   text-align: center;
-  width: 80%;
   margin: 0 auto;
   margin-top: 70px;
   max-width: 500px;
@@ -425,8 +424,8 @@ font-size: 14px;
 
 .servicesopen{
 
-  height: 35vh;
-  width: 80%;
+  height: 200px;
+  width: 100%;
   margin: 0 auto;
   background-color: var(--service);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -650,7 +649,7 @@ justify-content: center;
 
   .slidercontact{
     background-color: var(--colorproject);
-    width: 80%;
+    width: 100%;
     height: 240px;
     border-radius: 15px;
     margin: 0 auto;
@@ -659,18 +658,21 @@ justify-content: center;
     flex-direction: column;
     gap: 20px;
     color: white;
-    padding-top: 15px;
+    padding-top: 25px;
     max-width: 450px;
   }
 
   .slidercontact h2{
     font-weight: 600;
+    font-size: 20px;
 
   }
 
   .slidercontact p{
     font-weight: 500;
     font-size: 15px;
+    width: 85%;
+    margin: 0 auto;
   }
 
   .slidercontact button{
@@ -687,7 +689,7 @@ justify-content: center;
 }
 
 .maincontact{
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
