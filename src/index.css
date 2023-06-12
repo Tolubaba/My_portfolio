@@ -651,7 +651,7 @@ justify-content: center;
   .slidercontact{
     background-color: var(--colorproject);
     width: 80%;
-    height: 230px;
+    height: 240px;
     border-radius: 15px;
     margin: 0 auto;
     margin-top: 60px;
@@ -659,7 +659,7 @@ justify-content: center;
     flex-direction: column;
     gap: 20px;
     color: white;
-    padding-top: 35px;
+    padding-top: 15px;
     max-width: 450px;
   }
 
