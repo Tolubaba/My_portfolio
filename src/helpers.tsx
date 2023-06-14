@@ -4,6 +4,7 @@ import {FiFileText} from 'react-icons/fi'
 import {GoBriefcase} from 'react-icons/go'
 import { FiSend } from 'react-icons/fi';
 import {BsFillPersonFill} from 'react-icons/bs'
+import {MdOutlineMiscellaneousServices} from 'react-icons/md'
 
  export const links=[ 
     {name:'Services',
@@ -85,7 +86,7 @@ export const links3=[
     {name:'Services',
     href:'services',
     offset:-90,
-    logo:<GrServices className='helperlogo'/>
+    logo:<MdOutlineMiscellaneousServices className='helperlogo'/>
 
     },
     {
