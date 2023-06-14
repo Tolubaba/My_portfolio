@@ -1,4 +1,10 @@
- 
+import {GoHome} from 'react-icons/go'
+import {GrServices} from 'react-icons/gr'
+import {FiFileText} from 'react-icons/fi'
+import {GoBriefcase} from 'react-icons/go'
+import { FiSend } from 'react-icons/fi';
+import {BsFillPersonFill} from 'react-icons/bs'
+
  export const links=[ 
     {name:'Services',
     href:'services',
@@ -24,12 +30,14 @@ export const links2=[
     {
         name:'Home',
         href:'home',
-        offset:-90
+        offset:-90,
+        
     },
     {
         name:'About',
         href:'about',
-        offset:-110
+        offset:-110,
+
     },
     {
         name:'Skills',
@@ -50,6 +58,48 @@ export const links2=[
         name:'Contact Me',
         href:'contact me',
         offset:-80
+    }
+
+]
+
+export const links3=[
+
+    {
+        name:'Home',
+        href:'home',
+        offset:-90,
+        logo:<GoHome className='helperlogo'/>
+    },
+    {
+        name:'About',
+        href:'about',
+        offset:-110,
+        logo:<BsFillPersonFill className='helperlogo'/>
+    },
+    {
+        name:'Skills',
+        href:'skills',
+        offset:-100,
+        logo:<FiFileText className='helperlogo'/>
+    },
+    {name:'Services',
+    href:'services',
+    offset:-90,
+    logo:<GrServices className='helperlogo'/>
+
+    },
+    {
+        name:'Portfolio',
+        href:'portfolio',
+        offset:-80,
+        logo:<GoBriefcase className='helperlogo'/> 
+    },
+    {
+        name:'Contact Me',
+        href:'contact me',
+        offset:-80,
+        logo:<FiSend style={{  transform: 'rotate(40deg)',
+    }} className='helperlogo'/>
     }
 
 ]

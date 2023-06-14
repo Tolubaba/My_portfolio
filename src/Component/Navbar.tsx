@@ -4,7 +4,8 @@ import { FaSun} from 'react-icons/fa';
 import { Link, Element, animateScroll as scroll } from 'react-scroll';
 import { usePortfolioContext } from '../Usecontext';
 import { NavLink } from 'react-router-dom';
-
+import {FaThList} from 'react-icons/fa'
+import Navmodal from './Navmodal';
 
 
 
@@ -17,7 +18,7 @@ href:string
 
 const Navbar = () => {
 
-  const {toggleTheme,theme}=usePortfolioContext()
+  const {toggleTheme,theme,opennav,navmore}=usePortfolioContext()
   return (
     <header>
      <nav className='nav'>
@@ -32,11 +33,12 @@ const Navbar = () => {
             })}
         </ul>
 
-        <div>
+        <div className='navlogo'>
 
     
 
     {theme==='lightmode'?<FaMoon className='color' onClick={toggleTheme}/>: <FaSun className='color' onClick={toggleTheme}/>}
+    <FaThList className='navlist' onClick={opennav}/>
         
        
 
@@ -48,6 +50,7 @@ const Navbar = () => {
         
 
         </nav>
+        <Navmodal/>
     </header>
   )
 }

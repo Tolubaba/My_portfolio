@@ -85,19 +85,20 @@ const [formvalues,setformvalues]=useState<Formvalues>(initialFormValues)
         </div>
 
         <div className='contactform'>
-            <form onSubmit={submit}>
+            <form action="https://formspree.io/f/mbjenjel"
+  method="POST">
 
             <div className='firstinput'>
-                <input type='text' placeholder='Name' name='name' value={formvalues.name} onChange={handlechnage}/>
-                <input type='Email' placeholder='Email' name='email' value={formvalues.email} onChange={handlechnage}/> 
+                <input type='text' placeholder='Name' name='name' />
+                <input type='Email' placeholder='Email' name='email' /> 
 
             </div>
             <div className='inputproject'>
-            <input type='text' placeholder='project' name='project' value={formvalues.project} onChange={handlechnage}/>
+            <input type='text' placeholder='project' name='project'/>
             </div>
 
             <div className='textproject'>
-            <textarea placeholder='message' name='textarea' value={formvalues.textarea} onChange={handlechnage}/>
+            <textarea placeholder='message' name='textarea'/>
 
             </div>
 

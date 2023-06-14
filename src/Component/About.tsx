@@ -1,5 +1,7 @@
 import React from 'react'
 import portimage from '../assets/portfolio pic.png'
+import portimage1 from '../assets/IMG_0019.jpeg'
+import portimage2 from '../assets/IMG_0276.jpeg'
 import {useEffect,useState} from 'react'
 import { dataword } from '../helpers'
 import { motion,useInView } from 'framer-motion'
@@ -38,7 +40,7 @@ const About = () => {
 
         <div className='mainaboutbegin'>
             <div className='imagediv'>
-            <img src={portimage} className='aboutimage'/>
+            <img src={portimage2} className='aboutimage'/>
 
             </div>
 

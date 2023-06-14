@@ -18,6 +18,11 @@ interface portfoliocontext {
  getStorageTheme: () => string,
   toggleTheme: () => void
   theme:string
+  opennav: () => void
+navmore: Boolean
+
+
+
 
 
 
@@ -34,6 +39,14 @@ const PortfolioContext=createContext ({}  as portfoliocontext )
  export const Portfolioprovider = ({children}:Props) => {
 
     const [viewmore,setviewmore]=useState<Boolean>(false);
+
+    const [navmore,setnavmore]=useState<Boolean>(false)
+
+    const opennav=()=>{
+        setnavmore(!navmore)
+    }
+
+
 
     const openview=()=>{
         setviewmore(true)
@@ -91,7 +104,7 @@ const PortfolioContext=createContext ({}  as portfoliocontext )
     // }
 
     return (
-        <PortfolioContext.Provider value={{viewmore,openview,setviewmore,closeview,getStorageTheme,toggleTheme,theme}}>
+        <PortfolioContext.Provider value={{viewmore,openview,setviewmore,closeview,getStorageTheme,toggleTheme,theme,navmore,opennav}}>
             {children}
 
         </PortfolioContext.Provider>

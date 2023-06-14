@@ -9,12 +9,13 @@ import { Servicemodal } from './Component/Servicemodal'
 import Portfolio from './Component/Portfolio'
 import Contact from './Component/Contact'
 import Footer from './Component/Footer'
+import Navmodal from './Component/Navmodal'
 
 const App = () => {
 
   
   
-  const {viewmore}=usePortfolioContext()
+  const {viewmore,navmore}=usePortfolioContext()
   const [theme, settheme]=React.useState('lightmode')
 
   const toggleTheme = () => {
@@ -33,6 +34,8 @@ const App = () => {
   return (
     <>  
         {viewmore && <Servicemodal/> }
+        
+
 
       <Navbar/>
 
