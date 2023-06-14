@@ -3,6 +3,11 @@ import { FiMapPin } from 'react-icons/fi';
 import { FaEnvelope } from 'react-icons/fa';
 import { FaPhoneAlt } from 'react-icons/fa';
 import {useState} from 'react'
+import { useEffect } from 'react';
+import { useRef } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
 
 
 interface Formvalues{
@@ -19,6 +24,9 @@ interface Formvalues{
 
 
 const Contact = () => {
+    
+
+      
     const initialFormValues: Formvalues = {
         name: '',
         email: '',
@@ -41,7 +49,10 @@ const [formvalues,setformvalues]=useState<Formvalues>(initialFormValues)
 
     }
   return (
-    <section className='maincontact' id='contact me'>
+
+
+
+    <section  className='maincontact' id='contact me'>
         <div className='contactbegin'>
             <h2> contact me</h2>
             <p> Get in touch</p>

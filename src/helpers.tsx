@@ -139,19 +139,27 @@ export const links3=[
 
     {
         id:1,
+        name:'Tradelane Foot-ware Store',
+        desc:'An e-commerce platform for selling footwear, built with React and powered by integration of Stripe API for secure checkout, Airtable for seamless database management, Auth0 API for user authentication, and Netlify functions for serverless architecture. Shop with ease and confidence with this secure and intuitive platform',
+        image:'../asset/comfysloth.PNG',
+        link:'https://tradelane.netlify.app/'
+    },
+
+    {
+        id:2,
         name:'Audiophile',
         desc:'An audio e-commerce store where audio device can be purchased. Built using styled-component, react typescript',
         image:'../asset/audiophile.PNG',
         link:'https://toluaudio-ecommerce-994a14.netlify.app/'
     },
     {
-        id:2,
+        id:3,
         name:'Multistep Form',
         desc:' A multistep form which shows level of progress as form is being filled. Built using React',
         image:'../asset/fomrea.PNG',
         link:'https://relaxed-alfajores-8c8c84.netlify.app/'
     },{
-        id:3,
+        id:4,
         name:'REST Countries API',
         desc:'A website which shows lists of coutries with details about the countires. Built using React and sass',
         image:'../asset/colorcountryreal.PNG',

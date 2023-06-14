@@ -10,6 +10,7 @@ import Portfolio from './Component/Portfolio'
 import Contact from './Component/Contact'
 import Footer from './Component/Footer'
 import Navmodal from './Component/Navmodal'
+import { Component } from 'react'
 
 const App = () => {
 
@@ -34,6 +35,7 @@ const App = () => {
   return (
     <>  
         {viewmore && <Servicemodal/> }
+        
         
 
 

@@ -35,7 +35,7 @@ const Footer = () => {
         <a href='https://twitter.com/Tendou_pain2'><FaTwitter className='footlogo' style={{fill:'none' ,color:'white', strokeWidth: '35px'
 }}   />
  </a>
-       <a href='tolubaba (Orogbemi Toluwase Doyinsola)'><FaGithub className='footlogo' style={{fill:'none' ,color:'white', strokeWidth: '35px',
+       <a href='https://github.com/Tolubaba'><FaGithub className='footlogo' style={{fill:'none' ,color:'white', strokeWidth: '35px',
 }}  />
 </a>
         <a href="https://www.linkedin.com/in/orogbemi-toluwase-568528258"><FaLinkedin className='footlogo' style={{fill:'none' ,color:'white', strokeWidth: '35px'

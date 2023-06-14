@@ -23,12 +23,16 @@ const Home = () => {
     <div className="homepage" id="home">
         <div className="firsthome">
             <div className="homelittleicon">
-        <FaTwitter style={{fontSize:'15px',fill:'none' ,color:' hsl( 142, 69%, 61%)', strokeWidth: '35px',stroke:'hsl( 142, 69%, 61%)'
-}}  />
-        <FaGithub style={{fontSize:'15px',fill:'none' ,color:' hsl( 142, 69%, 61%)', strokeWidth: '35px',stroke:'hsl( 142, 69%, 61%)'
-}}  />
-        <FaLinkedin style={{fontSize:'15px',fill:'none' ,color:' hsl( 142, 69%, 61%)', strokeWidth: '35px',stroke:'hsl( 142, 69%, 61%)'
-}}  />
+
+                <a href='https://twitter.com/Tendou_pain2'><FaTwitter style={{fontSize:'15px',fill:'none' ,color:' hsl( 142, 69%, 61%)', strokeWidth: '35px',stroke:'hsl( 142, 69%, 61%)'
+}}  /> </a>
+
+<a href='https://github.com/Tolubaba'>  <FaGithub style={{fontSize:'15px',fill:'none' ,color:' hsl( 142, 69%, 61%)', strokeWidth: '35px',stroke:'hsl( 142, 69%, 61%)'
+}}  /> </a>
+        
+      <a href="https://www.linkedin.com/in/orogbemi-toluwase-568528258"> <FaLinkedin style={{fontSize:'15px',fill:'none' ,color:' hsl( 142, 69%, 61%)', strokeWidth: '35px',stroke:'hsl( 142, 69%, 61%)'
+}}  /></a>
+        
 
       </div>
 
@@ -59,12 +63,16 @@ const Home = () => {
         </div>
         
         <div className="homebigicon">
-        <FaTwitter style={{fontSize:'15px',fill:'none' ,color:' hsl( 142, 69%, 61%)', strokeWidth: '35px',stroke:'hsl( 142, 69%, 61%)'
-}}  />
-        <FaGithub style={{fontSize:'15px',fill:'none' ,color:' hsl( 142, 69%, 61%)', strokeWidth: '35px',stroke:'hsl( 142, 69%, 61%)'
-}}  />
-        <FaLinkedin style={{fontSize:'15px',fill:'none' ,color:' hsl( 142, 69%, 61%)', strokeWidth: '35px',stroke:'hsl( 142, 69%, 61%)'
-}}  />
+
+            <a href='https://twitter.com/Tendou_pain2' > <FaTwitter style={{fontSize:'15px',fill:'none' ,color:' hsl( 142, 69%, 61%)', strokeWidth: '35px',stroke:'hsl( 142, 69%, 61%)'
+}}  /></a>
+        
+        <a href='https://github.com/Tolubaba'><FaGithub style={{fontSize:'15px',fill:'none' ,color:' hsl( 142, 69%, 61%)', strokeWidth: '35px',stroke:'hsl( 142, 69%, 61%)'
+}}  /> </a>
+        
+        <a href="https://www.linkedin.com/in/orogbemi-toluwase-568528258"><FaLinkedin style={{fontSize:'15px',fill:'none' ,color:' hsl( 142, 69%, 61%)', strokeWidth: '35px',stroke:'hsl( 142, 69%, 61%)'
+}}  /> </a>
+        
 
       </div>
 

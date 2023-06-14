@@ -56,7 +56,7 @@ const PortfolioContext=createContext ({}  as portfoliocontext )
     }
 
     const getStorageTheme = (): string => {
-        let theme: string = 'lightmode';
+        let theme: string = 'darkmode';
         const storedTheme = localStorage.getItem('theme');
         if (storedTheme !== null) {
           theme = storedTheme;
