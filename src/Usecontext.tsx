@@ -20,6 +20,8 @@ interface portfoliocontext {
   theme:string
   opennav: () => void
 navmore: Boolean
+setnavmore: React.Dispatch<React.SetStateAction<Boolean>>
+
 
 
 
@@ -104,7 +106,7 @@ const PortfolioContext=createContext ({}  as portfoliocontext )
     // }
 
     return (
-        <PortfolioContext.Provider value={{viewmore,openview,setviewmore,closeview,getStorageTheme,toggleTheme,theme,navmore,opennav}}>
+        <PortfolioContext.Provider value={{viewmore,openview,setviewmore,closeview,getStorageTheme,toggleTheme,theme,navmore,opennav,setnavmore}}>
             {children}
 
         </PortfolioContext.Provider>
