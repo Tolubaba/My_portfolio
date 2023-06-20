@@ -66,6 +66,8 @@ body{
   margin: 0 auto;
   font-family: 'Poppins', sans-serif;
   background-color: var(--background);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 
@@ -233,22 +235,32 @@ color: var(--primarycolor2);
   color: white;
   text-decoration: none;
 }
+
+#aboutname-cont{
+  height: 20px;
+  margin-bottom: 25px;
+}
 .aboutname{
   color: var(--primarycolor2);
   text-transform: capitalize;
   font-weight: 600;
   font-size: 24px;
-  margin-bottom: 8px;
   position: relative;
+  height: 20px;
+}
 
+#introduction-cont{
+  height: 20px;
+  margin-bottom: 20px;
 }
 .introduction{
   color: var(--primarycolor2);
   font-weight: 500;
   font-size: 15px;
-  width: fit-content;
+  height: 20px;
   margin: 0 auto;
   margin-bottom: 30px;
+  margin-top: 10px;
   position: relative;
 
 }
@@ -336,6 +348,11 @@ gap: 5px;
   margin-top: 40px;
   
 
+}
+
+
+.progressone{
+  position: relative;
 }
 .skillsmain{
   text-align: center;

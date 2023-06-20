@@ -1,10 +1,23 @@
 import React from 'react'
 import { Link, Element, animateScroll as scroll } from 'react-scroll';
 import { BiCodeCurly } from "react-icons/bi";
+import { motion,useInView } from 'framer-motion'
+import {useRef} from 'react';
+
+
 
 
 
 const Skills = () => {
+
+    const animat4=useRef(null)
+    const animate5=useRef(null)
+    const animate6=useRef(null)
+    const animate7=useRef(null)
+    const inview4=useInView(animat4)
+    const inview5=useInView(animate5)
+    const inview6=useInView(animate6)
+    const inview7 =useInView(animate7)
   return (
      <section className='skillsmain' id='skills'>
         <div className='skillstop'>
@@ -25,17 +38,25 @@ const Skills = () => {
         
 
         <div className='linewidths'>
-            <article>
+
+            <div ref={animat4}>
+                { inview4 &&
+            <motion.article className='progressone' initial={{left: 300, opacity: 0}} animate={{left: 0, opacity: 1}} transition={{duration: 1}} >
             <p className='progresstext'>  <span className='progressword'>HTML </span> <span className='progresspercent'> {`85%`}</span></p>
             <div className='progressbar' style={{width:'100%',     background: `linear-gradient(to right, #57e089 ${85}%, #b6fccf ${15}% 100%)`
 }}>
                 
 
             </div>
-            
+             </motion.article>
+}
 
-            </article>
+            </div>
 
+            <div>
+                
+            </div>
+           
             <article>
             <p className='progresstext'>  <span className='progressword'>CSS </span> <span className='progresspercent'> {`80%`}</span></p>
 

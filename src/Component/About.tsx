@@ -24,15 +24,17 @@ const About = () => {
   return (
      
     <section className='mainabout' id='about'>
-        <div ref={animate3}>
-            { 
-        <h2 className='aboutname'> About me</h2>
+        <div ref={animate3} id='aboutname-cont'>
+            {inview3 && 
+        <motion.h2 className='aboutname' initial={{left: 300, opacity: 0}} animate={{left: 0, opacity: 1}} transition={{duration: 0.9}}> About me</motion.h2>
 }
         </div>
         
-        <div ref={animate1}> {
-          <p className='introduction'
->My Introduction</p>
+        <div ref={animate1} id='introduction-cont'> {
+
+            inview1 &&
+          < motion.p className='introduction' initial={{right: 300, opacity: 0}} animate={{right: 0, opacity: 1}} transition={{duration: 1}}
+>My Introduction</ motion.p> 
 
         }
 
