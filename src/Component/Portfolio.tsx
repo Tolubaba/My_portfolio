@@ -86,7 +86,7 @@ const Portfolio = () => {
                 <h2> You have a new project</h2>
                 <p> contact me and get pixel perfect websites and application</p>
 
-                <button> <Link to='contact me' spy={true} smooth={true} duration={10}> Contact me</Link> </button>
+                <button> <Link to='contact me' spy={true} smooth={true} duration={10} offset={-80}> Contact me</Link> </button>
 
 
              </div>

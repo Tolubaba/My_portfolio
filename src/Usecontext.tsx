@@ -21,19 +21,7 @@ interface portfoliocontext {
   opennav: () => void
 navmore: Boolean
 setnavmore: React.Dispatch<React.SetStateAction<Boolean>>
-
-
-
-
-
-
-
- 
-
-
-
 }
-
 
 
 const PortfolioContext=createContext ({}  as portfoliocontext )
