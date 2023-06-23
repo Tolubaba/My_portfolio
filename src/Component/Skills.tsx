@@ -39,23 +39,20 @@ const Skills = () => {
 
         <div className='linewidths'>
 
-            <div ref={animat4}>
-                { inview4 &&
-            <motion.article className='progressone' initial={{left: 300, opacity: 0}} animate={{left: 0, opacity: 1}} transition={{duration: 1}} >
+            
+             <article className='progressone'>
             <p className='progresstext'>  <span className='progressword'>HTML </span> <span className='progresspercent'> {`85%`}</span></p>
             <div className='progressbar' style={{width:'100%',     background: `linear-gradient(to right, #57e089 ${85}%, #b6fccf ${15}% 100%)`
 }}>
                 
 
             </div>
-             </motion.article>
-}
+             </article>
 
-            </div>
 
-            <div>
-                
-            </div>
+            
+
+        
            
             <article>
             <p className='progresstext'>  <span className='progressword'>CSS </span> <span className='progresspercent'> {`80%`}</span></p>
