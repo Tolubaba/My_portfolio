@@ -59,7 +59,7 @@ const Home = () => {
             <h1 className="homename"> Hi, I am Toluwase</h1>
         <p className="homedeveloper"> A frontend developer</p>
         <p className="homedesc">Intermediate level experience in web design and development knowledge, creating responsive and pixel perfect websites. </p>
-        <button className="contactme"> <a href="#contact">  contact me  </a></button>
+        <button className="contactme"> <Link to='contact me' spy={true} smooth={true} duration={10} offset={-80}> Contact me</Link> </button>
         </div>
         
         <div className="homebigicon">

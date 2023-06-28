@@ -7,6 +7,9 @@ import { dataword } from '../helpers'
 import { motion,useInView } from 'framer-motion'
 import {useRef} from 'react'
 import { Link, Element, animateScroll as scroll } from 'react-scroll';
+import cv from '../assets/OROGBEMI RESUME.pdf'
+import { saveAs } from 'file-saver';
+
 
 import {BiDownload} from 'react-icons/bi'
 
@@ -21,6 +24,10 @@ const About = () => {
     const inview1=useInView(animate1);
     const inview2=useInView(animate2)
     const inview3=useInView(animate3)
+    const downloadCV = () => {
+        saveAs(cv, 'Tolu Resume');
+      };
+      
   return (
      
     <section className='mainabout' id='about'>
@@ -48,7 +55,7 @@ const About = () => {
             <div className='aboutmain'>
     
                 <p className='aboutwords'> 
-            A Front end Developer skilled in React, Javascript and Web development,adept at creating successful websites that meets customer needs as well as specializing in collaborating with end-users to gather requirements, produce plans and improve designs for usability and functionality.
+            A Front end Developer skilled in React, Javascript, Typescript and Web development,adept at creating successful websites that meets customer needs as well as specializing in collaborating with end-users to gather requirements, produce plans and improve designs for usability and functionality.
            </p>
            <div className='experince'>
             { dataword.map((_item,index)=>{
@@ -63,7 +70,7 @@ const About = () => {
            </div>
            
            <div>
-            <button className="aboutbtn">  Download CV </button>
+            <button className="aboutbtn" onClick={downloadCV}>  Download CV   </button>
 
             </div>
 

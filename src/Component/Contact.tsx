@@ -67,7 +67,7 @@ const [formvalues,setformvalues]=useState<Formvalues>(initialFormValues)
                 <FaPhoneAlt className='infologo'/>
                 <div>
                     <h3> call me</h3>
-                    <p> +2348038476752</p>
+                    <p> +2349123019268</p>
                 </div>
                 
                 </div> 

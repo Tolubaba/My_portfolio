@@ -154,6 +154,10 @@ a.active{
   color: white;
 }
 
+button{
+  cursor: pointer;
+}
+
 
 .color{
   font-size: 13px;
